@@ -1,0 +1,13 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.weather{
+    display: grid;
+}
+.prediction:first-child{
+    grid-column: 1/8;
+    display: grid;
+    justify-content: center;
+}
